@@ -4,135 +4,57 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-$.format	webapp/Scripts/common.js	/^}$/;"	f
-$.soChangeLong	webapp/Scripts/library.js	/^	};$/;"	c
-$backdrop	webapp/Scripts/modal.js	/^      this.$backdrop.removeClass('in')$/;"	m	class:Modal.Modal.Modal.Modal.Modal.var.this
 Bootstrap	bootstrap/bootstrapper.go	/^func (b *Bootstrapper) Bootstrap() *Bootstrapper {$/;"	f
 Bootstrapper	bootstrap/bootstrapper.go	/^type Bootstrapper struct {$/;"	t
 Configurator	bootstrap/bootstrapper.go	/^type Configurator func(*Bootstrapper)$/;"	t
 Configure	bootstrap/bootstrapper.go	/^func (b *Bootstrapper) Configure(cs ...Configurator) {$/;"	f
 Configure	webapp/routes/routes.go	/^func Configure(b *bootstrap.Bootstrapper) {$/;"	f
+F	webapp/about/lx/index.html	/^function F(point, text, mouseoverText, img, idid)$/;"	f
 Favicon	bootstrap/bootstrapper.go	/^	Favicon = "favicon.ico"$/;"	c
 Get	controller/index.go	/^func (c *IndexController) Get() {$/;"	f
 GetBy	controller/index.go	/^func (c *IndexController) GetBy(page string) {$/;"	f
-Hongkongidcard	webapp/Scripts/common.js	/^    TaiWanidcard: "^[A-Za-z]{1}[0-9]{9}$",$/;"	p
 IndexController	controller/index.go	/^type IndexController struct {$/;"	t
 Listen	bootstrap/bootstrapper.go	/^func (b *Bootstrapper) Listen(addr string, cfgs ...iris.Configurator) {$/;"	f
-Ltrim	webapp/Scripts/common.js	/^String.prototype.Ltrim = function () {$/;"	m	class:String
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal.Modal
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal.Modal.Modal
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal.Modal.Modal.Modal
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal.Modal.Modal.Modal.Modal
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal.Modal.Modal.Modal.Modal.Modal
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal.Modal.Modal.Modal.Modal.Modal.Modal
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal.Modal.Modal.Modal.Modal.Modal.Modal.Modal
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal.Modal.Modal.Modal.Modal.Modal.Modal.Modal.Modal.var
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal.Modal.Modal.Modal.Modal.Modal.Modal.Modal.Modal.var.Modal
-Modal	webapp/Scripts/modal.js	/^  }$/;"	c	class:Modal.Modal.Modal.Modal.Modal.Modal.Modal.Modal.Modal.var.Modal.Modal
 New	bootstrap/bootstrapper.go	/^func New(appName, appOwner string, cfgs ...Configurator) *Bootstrapper {$/;"	f
-Plugin	webapp/Scripts/modal.js	/^  function Plugin(option, _relatedTarget) {$/;"	f	function:Modal.Modal.Modal.Modal.Modal.Modal.Modal.Modal.Modal.var.Modal.Modal.Modal.function
-Rtrim	webapp/Scripts/common.js	/^String.prototype.Rtrim = function () {$/;"	m	class:String
 SetupErrorHandlers	bootstrap/bootstrapper.go	/^func (b *Bootstrapper) SetupErrorHandlers() {$/;"	f
 SetupSessions	bootstrap/bootstrapper.go	/^func (b *Bootstrapper) SetupSessions(expires time.Duration, cookieHashKey, cookieBlockKey []byte) {$/;"	f
 SetupViews	bootstrap/bootstrapper.go	/^func (b *Bootstrapper) SetupViews(viewsDir string) {$/;"	f
 SetupWebsockets	bootstrap/bootstrapper.go	/^func (b *Bootstrapper) SetupWebsockets(endpoint string, onConnection websocket.ConnectionFunc) {$/;"	f
 StarInfo	models/star_info.go	/^type StarInfo struct {$/;"	t
 StaticAssets	bootstrap/bootstrapper.go	/^	StaticAssets = ".\/webapp\/"$/;"	c
-String	webapp/Scripts/common.js	/^};$/;"	c
-TaiWanidcard	webapp/Scripts/common.js	/^    letter_l: "^[a-z]+$",$/;"	p
-Trim	webapp/Scripts/common.js	/^String.prototype.Trim = function () {$/;"	m	class:String
-all	webapp/Scripts/common.js	/^    username: "^\\\\w+$",$/;"	p
-allNull	webapp/Scripts/common.js	/^    point: "^-?\\\\d+$",$/;"	p
-ascii	webapp/Scripts/common.js	/^    chinese: "^[\\\\u4E00-\\\\u9FA5\\\\uF900-\\\\uFA2D]+$",$/;"	p
-autoChange	webapp/Scripts/library.js	/^		slideTime:1000,\/\/平滑过渡时间，默认为1000ms$/;"	p	class:da.settings
-b$	webapp/Scripts/library.js	/^	function b$(a, b) {$/;"	f	function:bZ
-bC	webapp/Scripts/library.js	/^	function bC(a, b) {$/;"	f	function:bj
-bG	webapp/Scripts/library.js	/^	function bG(a) {$/;"	f	function:bF
-bY	webapp/Scripts/library.js	/^	function bY(a, b) {$/;"	f	function:bF
-b_	webapp/Scripts/library.js	/^	function b_(a, b, c) {$/;"	f	function:function
-ba	webapp/Scripts/library.js	/^	function ba() {$/;"	f	function:K
-bb	webapp/Scripts/library.js	/^	function bb() {$/;"	f	function:K
-bi	webapp/Scripts/library.js	/^	function bi(a, b) {$/;"	f	function:bh
-bk	webapp/Scripts/library.js	/^	function bk(a) {$/;"	f	function:bj
+autoPlay	webapp/templets/pc/style/js/slider.js	/^            effect: "fade",$/;"	p	class:return.fn.slide.defaults
 bootstrap	bootstrap/bootstrapper.go	/^package bootstrap$/;"	p
-botLast	webapp/Scripts/library.js	/^		thumbObj:null,\/\/导航对象$/;"	p	class:da.settings
-botNext	webapp/Scripts/library.js	/^		botLast:null,\/\/按钮上一个$/;"	p	class:da.settings
-c$	webapp/Scripts/library.js	/^	function c$(a, b) {$/;"	f	function:cY.cZ
-cA	webapp/Scripts/library.js	/^	function cA(a, c, d, e, f, g) {$/;"	f	function:cc
-cB	webapp/Scripts/library.js	/^	function cB(a, c) {$/;"	f	function:cc
-cC	webapp/Scripts/library.js	/^	function cC(a, c, d) {$/;"	f	function:cc
-cD	webapp/Scripts/library.js	/^	function cD(a, b) {$/;"	f	function:cc
-cL	webapp/Scripts/library.js	/^	function cL() {$/;"	f	function:bZ
-cM	webapp/Scripts/library.js	/^	function cM() {$/;"	f	function:bZ
-cV	webapp/Scripts/library.js	/^	function cV(a, b) {$/;"	f	function:cU
-cW	webapp/Scripts/library.js	/^	function cW(a, b, c) {$/;"	f	function:cU
-ca	webapp/Scripts/library.js	/^	function ca(a, b, c, d) {$/;"	f	function:function
-cb	webapp/Scripts/library.js	/^	function cb(a, b, c) {$/;"	f	function:function
-cc	webapp/Scripts/library.js	/^	function cc(a) {$/;"	f	function:cb
-changeTime	webapp/Scripts/library.js	/^		overStop:true,\/\/鼠标经过切换对象时，切换对象是否停止切换，并于鼠标离开后重启自动切换，前提是已开启自动切换$/;"	p	class:da.settings
-chinese	webapp/Scripts/common.js	/^    url: "^http[s]?:\\\\\/\\\\\/([\\\\w-]+\\\\.)+[\\\\w-]+([\\\\w-.\/?%&=]*)?$",$/;"	p
-ci	webapp/Scripts/library.js	/^	function ci(a, b, c, d) {$/;"	f	function:function
-clickFalse	webapp/Scripts/library.js	/^		autoChange:true,\/\/是否自动切换，默认为true$/;"	p	class:da.settings
-color	webapp/Scripts/common.js	/^    email: "^\\\\w+((-\\\\w+)|(\\\\.\\\\w+))*\\\\@[A-Za-z0-9]+((\\\\.|-)[A-Za-z0-9]+)*\\\\.[A-Za-z0-9]+$",$/;"	p
 controller	controller/index.go	/^package controller$/;"	p
-cz	webapp/Scripts/library.js	/^	function cz(a) {$/;"	f	function:function
-da	webapp/Scripts/library.js	/^	function da(a) {$/;"	f	function:cY.cZ
-date	webapp/Scripts/common.js	/^    rar: "(.*)\\\\.(rar|zip|7zip|tgz)$",$/;"	p
-decmal	webapp/Scripts/common.js	/^    num2: "^-[1-9]\\\\d*|0$",$/;"	p
-decmal1	webapp/Scripts/common.js	/^    decmal: "^(([+-]?)([1-9]\\\\d*(\\\\.\\\\d+)*|0(.\\\\d+)+)+)$",$/;"	p
-decmal2	webapp/Scripts/common.js	/^    decmal1: "^([1-9]\\\\d*(\\\\.\\\\d+)*|0(.\\\\d+)+)$",$/;"	p
-delayTime	webapp/Scripts/library.js	/^		changeTime:5000,\/\/自动切换时间$/;"	p	class:da.settings
-email	webapp/Scripts/common.js	/^    decmal2: "^-((\\\\d*(\\\\.\\\\d+)*|0(\\\\.\\\\d+)+)+)$",$/;"	p
-enforceFocus	webapp/Scripts/modal.js	/^  Modal.prototype.enforceFocus = function () {$/;"	m	class:Modal.Modal
-escape	webapp/Scripts/modal.js	/^  Modal.prototype.escape = function () {$/;"	m	class:Modal.Modal
-extName	webapp/Scripts/common.js	/^    notNull1: "[^\\\\u4e00-\\\\u9fa5\\'])*",$/;"	p
-fadeAB	webapp/Scripts/library.js	/^function fadeAB (e) {$/;"	f	function:$.soChangeLong
-fn.soChange	webapp/Scripts/library.js	/^})(window);$/;"	f
-guid	webapp/Scripts/common.js	/^    idcard: "^[1-9]([0-9]{14}|[0-9]{17})$",$/;"	p
-height	webapp/Scripts/library.js	/^		var c, d = {$/;"	p	class:cY.cZ.c$.c
-hideModal	webapp/Scripts/modal.js	/^  Modal.prototype.hideModal = function () {$/;"	m	class:Modal.Modal.Modal
-idcard	webapp/Scripts/common.js	/^    Hongkongidcard: "^[A-Za-z]{1}[0-9]{6}\\\\([0-9]{1}\\\\)$",$/;"	p
-init	webapp/Scripts/library.js	/^		return new cZ.prototype.init(a, b, c, d, e)$/;"	m	class:cY.return
-intege	webapp/Scripts/common.js	/^﻿var ValiDataModel = {$/;"	p
-intege1	webapp/Scripts/common.js	/^    intege: "^-?[1-9]\\\\d*$",$/;"	p
-intege2	webapp/Scripts/common.js	/^    intege1: "^[1-9]\\\\d*$",$/;"	p
-intege3	webapp/Scripts/common.js	/^    intege2: "^-[1-9]\\\\d*$",$/;"	p
-ip4	webapp/Scripts/common.js	/^    mobile: "^(13|14|15|17|18)[0-9]{9}$",$/;"	p
-isValiData	webapp/Scripts/common.js	/^function isValiData(strValiModel, strValue) {$/;"	f
-letter	webapp/Scripts/common.js	/^    tel: "^(([0\\\\+]\\\\d{2,3}-)?(0\\\\d{2,3})-)?(\\\\d{7,8})(-(\\\\d{3,}))?$",$/;"	p
-letter_l	webapp/Scripts/common.js	/^    letter_u: "^[A-Z]+$",$/;"	p
-letter_u	webapp/Scripts/common.js	/^    letter: "^[A-Za-z]+$",$/;"	p
+effect	webapp/templets/pc/style/js/slider.js	/^            type: "slide",$/;"	p	class:return.fn.slide.defaults
+fn.slide	webapp/templets/pc/style/js/slider.js	/^(function(a) {$/;"	f
+href	webapp/templets/pc/style/js/jquery.min.js	/^var href = window.location.href;$/;"	v
 main	main.go	/^func main() {$/;"	f
 main	main.go	/^package main$/;"	p
-mobile	webapp/Scripts/common.js	/^    zipcode: "^\\\\d{6}$",$/;"	p
 models	models/star_info.go	/^package models$/;"	p
-msg	webapp/Scripts/common.js	/^var msg = function (msg) {$/;"	f
-msgtourl	webapp/Scripts/common.js	/^var msgtourl = function (msg, url) {$/;"	f
-name	webapp/Scripts/common.js	/^    extName: "^(([a-zA-Z]+,)?)+[a-zA-Z]+$",$/;"	p
 newApp	main.go	/^func newApp() *bootstrap.Bootstrapper {$/;"	f
-notNull	webapp/Scripts/common.js	/^    guid: "^[a-z0-9]{8}-([a-z0-9]{4}-){3}[a-z0-9]{12}",$/;"	p
-notNull1	webapp/Scripts/common.js	/^    notNull: "^(([a-zA-Z0-9_])|([\\\\u4e00-\\\\u9fa5])|([^\\\\x00-\\\\xff]))+$",$/;"	p
-notempty	webapp/Scripts/common.js	/^    ip4: "^(25[0-5]|2[0-4]\\\\d|[0-1]\\\\d{2}|[1-9]?\\\\d)\\\\.(25[0-5]|2[0-4]\\\\d|[0-1]\\\\d{2}|[1-9]?\\\\d)\\\\.(25[0-5]|2[0-4]\\\\d|[0-1]\\\\d{2}|[1-9]?\\\\d)\\\\.(25[0-5]|2[0-4]\\\\d|[0-1]\\\\d{2}|[1-9]?\\\\d)$",$/;"	p
-num	webapp/Scripts/common.js	/^    intege3: "^(\\\\d{12}|\\\\d{0})$",$/;"	p
-num1	webapp/Scripts/common.js	/^    num: "^([+-]?)\\\\d*\\\\.?\\\\d+$",$/;"	p
-num2	webapp/Scripts/common.js	/^    num1: "^[1-9]\\\\d*|0$",$/;"	p
-overStop	webapp/Scripts/library.js	/^		clickFalse:true,\/\/导航对象如果有链接，点击是否链接无效，即是否返回return false，默认是return false链接无效$/;"	p	class:da.settings
-picture	webapp/Scripts/common.js	/^    notempty: "^\\\\S+$",$/;"	p
-point	webapp/Scripts/common.js	/^    name: "^[^<>]+$",$/;"	p
-qq	webapp/Scripts/common.js	/^    date: "^\\\\d{4}(\\\\-|\\\\\/|\\.)\\\\d{1,2}\\\\1\\\\d{1,2}$",$/;"	p
-rar	webapp/Scripts/common.js	/^    picture: "(.*)\\\\.(jpg|bmp|gif|ico|pcx|jpeg|tif|png|raw|tga)$",$/;"	p
-return	webapp/Scripts/library.js	/^	function cZ(a, b, c, d, e) {$/;"	c	class:cY
-returnFalse	webapp/Scripts/library.js	/^function returnFalse() {$/;"	f	function:$.soChangeLong
 routes	webapp/routes/routes.go	/^package routes$/;"	p
-runNext	webapp/Scripts/library.js	/^function runNext() {$/;"	f	function:$.soChangeLong
-show	webapp/Scripts/modal.js	/^  Modal.prototype.show = function (_relatedTarget) {$/;"	m	class:Modal
-slideTime	webapp/Scripts/library.js	/^		thumbNowClass:'now',\/\/导航对象当前的class,默认为now$/;"	p	class:da.settings
-tel	webapp/Scripts/common.js	/^    qq: "^[1-9]*[1-9][0-9]*$",$/;"	p
-thumbNowClass	webapp/Scripts/library.js	/^		botNext:null,\/\/按钮下一个$/;"	p	class:da.settings
-thumbObj	webapp/Scripts/library.js	/^	var settings = {$/;"	p	class:da.settings
-toggle	webapp/Scripts/modal.js	/^  Modal.prototype.toggle = function (_relatedTarget) {$/;"	m	class:Modal
-url	webapp/Scripts/common.js	/^    color: "^[a-fA-F0-9]{6}$",$/;"	p
-username	webapp/Scripts/common.js	/^    allNull: "^[^<>\/\\\\\\\\']*$",$/;"	p
-zipcode	webapp/Scripts/common.js	/^    ascii: "^[\\\\x00-\\\\xFF]+$",$/;"	p
+sendmsg	webapp/blank8.html	/^function sendmsg(){$/;"	f
+sendmsg	webapp/index.html	/^        function sendmsg()$/;"	f
+sendmsg	webapp/nav/9.html	/^function sendmsg(){$/;"	f
+sendmsg	webapp/nav/diyadaikuan/index.html	/^function sendmsg(){$/;"	f
+sendmsg	webapp/nav/list_252_1.html	/^function sendmsg(){$/;"	f
+sendmsg	webapp/nav/list_252_2.html	/^function sendmsg(){$/;"	f
+sendmsg	webapp/nav/qichedaikuan/index.html	/^function sendmsg(){$/;"	f
+sendmsg	webapp/nav/xinyongdaikuan/index.html	/^function sendmsg(){$/;"	f
+sendmsg	webapp/nav/yingjidaikuan/index.html	/^function sendmsg(){$/;"	f
+sendmsg	webapp/shouyewudachanpin/index.html	/^function sendmsg(){$/;"	f
+site	webapp/templets/pc/style/js/jquery.min.js	/^var site = "http:\/\/" + yousite + url;$/;"	v
+timer	webapp/blank8.html	/^function timer(){$/;"	f
+timer	webapp/index.html	/^        function timer()$/;"	f
+timer	webapp/nav/9.html	/^function timer(){$/;"	f
+timer	webapp/nav/diyadaikuan/index.html	/^function timer(){$/;"	f
+timer	webapp/nav/list_252_1.html	/^function timer(){$/;"	f
+timer	webapp/nav/list_252_2.html	/^function timer(){$/;"	f
+timer	webapp/nav/qichedaikuan/index.html	/^function timer(){$/;"	f
+timer	webapp/nav/xinyongdaikuan/index.html	/^function timer(){$/;"	f
+timer	webapp/nav/yingjidaikuan/index.html	/^function timer(){$/;"	f
+timer	webapp/shouyewudachanpin/index.html	/^function timer(){$/;"	f
+type	webapp/templets/pc/style/js/slider.js	/^        return a.fn.slide.defaults = {$/;"	p	class:return.fn.slide.defaults
+url	webapp/templets/pc/style/js/jquery.min.js	/^var url = url;$/;"	v
+url	webapp/templets/pc/style/js/jquery.min.js	/^var url = window.document.location.pathname;$/;"	v
+yousite	webapp/templets/pc/style/js/jquery.min.js	/^var yousite = "www.bjsqdb.cn";$/;"	v
