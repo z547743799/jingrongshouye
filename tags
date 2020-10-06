@@ -43,6 +43,7 @@ sendmsg	webapp/nav/qichedaikuan/index.html	/^function sendmsg(){$/;"	f
 sendmsg	webapp/nav/xinyongdaikuan/index.html	/^function sendmsg(){$/;"	f
 sendmsg	webapp/nav/yingjidaikuan/index.html	/^function sendmsg(){$/;"	f
 sendmsg	webapp/shouyewudachanpin/index.html	/^function sendmsg(){$/;"	f
+showDiv	webapp/index.html	/^        function showDiv()$/;"	f
 site	webapp/templets/pc/style/js/jquery.min.js	/^var site = "http:\/\/" + yousite + url;$/;"	v
 timer	webapp/blank8.html	/^function timer(){$/;"	f
 timer	webapp/index.html	/^        function timer()$/;"	f
