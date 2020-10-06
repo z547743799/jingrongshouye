@@ -23,15 +23,18 @@ SetupWebsockets	bootstrap/bootstrapper.go	/^func (b *Bootstrapper) SetupWebsocke
 StarInfo	models/star_info.go	/^type StarInfo struct {$/;"	t
 StaticAssets	bootstrap/bootstrapper.go	/^	StaticAssets = ".\/webapp\/"$/;"	c
 autoPlay	webapp/templets/pc/style/js/slider.js	/^            effect: "fade",$/;"	p	class:return.fn.slide.defaults
+begin	webapp/templets/pc/style/js/form.js	/^function begin() {$/;"	f
 bootstrap	bootstrap/bootstrapper.go	/^package bootstrap$/;"	p
 controller	controller/index.go	/^package controller$/;"	p
 effect	webapp/templets/pc/style/js/slider.js	/^            type: "slide",$/;"	p	class:return.fn.slide.defaults
 fn.slide	webapp/templets/pc/style/js/slider.js	/^(function(a) {$/;"	f
+han_check	webapp/templets/pc/style/js/form.js	/^function han_check(num) {$/;"	f
 href	webapp/templets/pc/style/js/jquery.min.js	/^var href = window.location.href;$/;"	v
 main	main.go	/^func main() {$/;"	f
 main	main.go	/^package main$/;"	p
 models	models/star_info.go	/^package models$/;"	p
 newApp	main.go	/^func newApp() *bootstrap.Bootstrapper {$/;"	f
+num_check	webapp/templets/pc/style/js/form.js	/^function num_check(num) {$/;"	f
 routes	webapp/routes/routes.go	/^package routes$/;"	p
 sendmsg	webapp/blank8.html	/^function sendmsg(){$/;"	f
 sendmsg	webapp/index.html	/^        function sendmsg()$/;"	f
