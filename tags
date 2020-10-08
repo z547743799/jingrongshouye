@@ -36,8 +36,8 @@ models	models/star_info.go	/^package models$/;"	p
 newApp	main.go	/^func newApp() *bootstrap.Bootstrapper {$/;"	f
 num_check	webapp/templets/pc/style/js/form.js	/^function num_check(num) {$/;"	f
 routes	webapp/routes/routes.go	/^package routes$/;"	p
-sendmsg	index.html	/^        function sendmsg()$/;"	f
 sendmsg	webapp/blank8.html	/^function sendmsg(){$/;"	f
+sendmsg	webapp/index.html	/^        function sendmsg()$/;"	f
 sendmsg	webapp/nav/9.html	/^function sendmsg(){$/;"	f
 sendmsg	webapp/nav/diyadaikuan/index.html	/^function sendmsg(){$/;"	f
 sendmsg	webapp/nav/list_252_1.html	/^function sendmsg(){$/;"	f
@@ -46,10 +46,10 @@ sendmsg	webapp/nav/qichedaikuan/index.html	/^function sendmsg(){$/;"	f
 sendmsg	webapp/nav/xinyongdaikuan/index.html	/^function sendmsg(){$/;"	f
 sendmsg	webapp/nav/yingjidaikuan/index.html	/^function sendmsg(){$/;"	f
 sendmsg	webapp/shouyewudachanpin/index.html	/^function sendmsg(){$/;"	f
-showDiv	index.html	/^        function showDiv()$/;"	f
+showDiv	webapp/index.html	/^        function showDiv()$/;"	f
 site	webapp/templets/pc/style/js/jquery.min.js	/^var site = "http:\/\/" + yousite + url;$/;"	v
-timer	index.html	/^        function timer()$/;"	f
 timer	webapp/blank8.html	/^function timer(){$/;"	f
+timer	webapp/index.html	/^        function timer()$/;"	f
 timer	webapp/nav/9.html	/^function timer(){$/;"	f
 timer	webapp/nav/diyadaikuan/index.html	/^function timer(){$/;"	f
 timer	webapp/nav/list_252_1.html	/^function timer(){$/;"	f
